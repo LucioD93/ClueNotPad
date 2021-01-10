@@ -1,7 +1,7 @@
 <form [formGroup]="form" (ngSubmit)="onSubmit()">
   <mat-card>
     <mat-card-header>
-      <mat-card-title>Clue Note Pad</mat-card-title>
+      <mat-card-title>Clue Notas</mat-card-title>
     </mat-card-header>
       <formly-form
         [form]="form"
@@ -11,7 +11,7 @@
         (modelChange)="onFormChange($event)"
       ></formly-form>
     <mat-card-actions align="start">
-      <button mat-raised-button color="primary" (click)="options.resetModel()">Reset</button>
+      <button mat-raised-button color="primary" (click)="options.resetModel()">Reiniciar</button>
     </mat-card-actions>
   </mat-card>
 </form>
