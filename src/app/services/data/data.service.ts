@@ -46,6 +46,8 @@ export class DataService {
         gameroom: false,
         library: false,
         garage: false,
+        livingroom: false,
+        dinner: false
       }
     };
   }

@@ -23,38 +23,6 @@ export class NotePadComponent {
       },
       fieldGroup: [
         {
-          key: 'blue',
-          className: 'flex-1',
-          type: 'checkbox',
-          templateOptions: {
-            label: 'Azulino'
-          }
-        },
-        {
-          key: 'red',
-          className: 'flex-1',
-          type: 'checkbox',
-          templateOptions: {
-            label: 'Escarlata'
-          }
-        },
-        {
-          key: 'purple',
-          className: 'flex-1',
-          type: 'checkbox',
-          templateOptions: {
-            label: 'Moradillo'
-          }
-        },
-        {
-          key: 'white',
-          className: 'flex-1',
-          type: 'checkbox',
-          templateOptions: {
-            label: 'Blanco'
-          }
-        },
-        {
           key: 'green',
           className: 'flex-1',
           type: 'checkbox',
@@ -69,7 +37,39 @@ export class NotePadComponent {
           templateOptions: {
             label: 'Mostaza'
           }
-        }
+        },
+        {
+          key: 'blue',
+          className: 'flex-1',
+          type: 'checkbox',
+          templateOptions: {
+            label: 'Azulino'
+          }
+        },
+        {
+          key: 'purple',
+          className: 'flex-1',
+          type: 'checkbox',
+          templateOptions: {
+            label: 'Moradillo'
+          }
+        },
+        {
+          key: 'red',
+          className: 'flex-1',
+          type: 'checkbox',
+          templateOptions: {
+            label: 'Escarlata'
+          }
+        },
+        {
+          key: 'white',
+          className: 'flex-1',
+          type: 'checkbox',
+          templateOptions: {
+            label: 'Blanco'
+          }
+        },
       ]
     },
     {
@@ -80,10 +80,10 @@ export class NotePadComponent {
       },
       fieldGroup: [
         {
-          key: 'pipe',
+          key: 'wrench',
           type: 'checkbox',
           templateOptions: {
-            label: 'Tuberia'
+            label: 'Llave Inglesa'
           }
         },
         {
@@ -94,24 +94,10 @@ export class NotePadComponent {
           }
         },
         {
-          key: 'rope',
-          type: 'checkbox',
-          templateOptions: {
-            label: 'Soga'
-          }
-        },
-        {
           key: 'knife',
           type: 'checkbox',
           templateOptions: {
-            label: 'Cuchillo'
-          }
-        },
-        {
-          key: 'wrench',
-          type: 'checkbox',
-          templateOptions: {
-            label: 'Llave Inglesa'
+            label: 'Daga'
           }
         },
         {
@@ -119,6 +105,20 @@ export class NotePadComponent {
           type: 'checkbox',
           templateOptions: {
             label: 'Pistola'
+          }
+        },
+        {
+          key: 'pipe',
+          type: 'checkbox',
+          templateOptions: {
+            label: 'Tuberia'
+          }
+        },
+        {
+          key: 'rope',
+          type: 'checkbox',
+          templateOptions: {
+            label: 'Soga'
           }
         },
       ]
@@ -131,6 +131,13 @@ export class NotePadComponent {
       },
       fieldGroup: [
         {
+          key: 'bathroom',
+          type: 'checkbox',
+          templateOptions: {
+            label: 'Baño'
+          }
+        },
+        {
           key: 'study',
           type: 'checkbox',
           templateOptions: {
@@ -138,10 +145,24 @@ export class NotePadComponent {
           }
         },
         {
-          key: 'bathroom',
+          key: 'dinner',
           type: 'checkbox',
           templateOptions: {
-            label: 'Baño'
+            label: 'Comedor'
+          }
+        },
+        {
+          key: 'gameroom',
+          type: 'checkbox',
+          templateOptions: {
+            label: 'Cuarto de Juegos'
+          }
+        },
+        {
+          key: 'garage',
+          type: 'checkbox',
+          templateOptions: {
+            label: 'Garage'
           }
         },
         {
@@ -150,7 +171,15 @@ export class NotePadComponent {
           templateOptions: {
             label: 'Habitacion'
           }
-        },{
+        },
+        {
+          key: 'livingroom',
+          type: 'checkbox',
+          templateOptions: {
+            label: 'Sala'
+          }
+        },
+        {
           key: 'kitchen',
           type: 'checkbox',
           templateOptions: {
@@ -162,26 +191,6 @@ export class NotePadComponent {
           type: 'checkbox',
           templateOptions: {
             label: 'Patio'
-          }
-        },
-        {
-          key: 'gameroom',
-          type: 'checkbox',
-          templateOptions: {
-            label: 'Cuarto de Juegos'
-          }
-        },{
-          key: 'library',
-          type: 'checkbox',
-          templateOptions: {
-            label: 'Biblioteca'
-          }
-        },
-        {
-          key: 'garage',
-          type: 'checkbox',
-          templateOptions: {
-            label: 'Garage'
           }
         },
       ]
